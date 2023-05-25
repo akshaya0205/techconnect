@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class Test1 {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		String driverPath = "C:\\Users\\Admin\\eclipse-workspace\\TechPubConnect\\src\\Drivers\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", driverPath);
 		WebDriver driver = new ChromeDriver();
